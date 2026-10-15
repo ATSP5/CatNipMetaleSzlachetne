@@ -30,3 +30,17 @@ breakpoints.json
 
 # Folders that mark themselves as caches (CACHEDIR.TAG), e.g. a model download cache
 /models/
+
+# Data downloaded at run time (Yahoo Finance prices, GUS CPI) — refreshed on every machine.
+# A committed copy would look fresh after a clone (file time = checkout time) and hide new prices.
+/output/
+
+# Local settings and secrets
+.env
+.env.*
+
+# IDE / OS clutter
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

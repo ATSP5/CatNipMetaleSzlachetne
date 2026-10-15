@@ -1,7 +1,11 @@
-yfinance
+# Python 3.10 or 3.11
 pandas
 numpy
-chronos-forecasting
+matplotlib
+yfinance
+# GPU: install a CUDA build of torch first (https://pytorch.org/get-started/locally/)
+torch
+chronos-forecasting>=2.0
 transformers
 sentencepiece
 protobuf
