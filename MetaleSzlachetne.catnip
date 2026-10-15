@@ -1604,8 +1604,8 @@
         "title": "README",
         "targetPath": ""
       },
-      "locationX": -400,
-      "locationY": -200
+      "locationX": 0,
+      "locationY": 140.66666666666666
     }
   ],
   "connections": [
